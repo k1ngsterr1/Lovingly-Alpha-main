@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074014167186",
+    "project_id": "lovingly-dacb1",
+    "storage_bucket": "lovingly-dacb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074014167186:android:d087e108e0152a7224864b",
+        "android_client_info": {
+          "package_name": "com.example.lovingly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074014167186-t8r203rd6s3q5rbibbllalulepdatqj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPq52gOsy6ZRfJNru-AmFOKd5ommo6xE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074014167186-t8r203rd6s3q5rbibbllalulepdatqj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
