@@ -254,13 +254,13 @@ const ProfileMakerScreen = () => {
 
       if (user) {
         const uid = user.uid;
-        const storageRef = ref(storage, "profile_pictures");
+        const storageRef = ref(storage, `profile_pictures/${uid}.jpeg`);
         const nameRef = doc(db, "users", uid);
 
         const img = await fetch(uri);
         const blob = await img.blob();
 
-        const newFile = new File([blob], "profilePicture.jpeg", {
+        const newFile = new File([blob], `${uid}.jpeg`, {
           type: "image/jpeg",
         });
 
@@ -270,7 +270,6 @@ const ProfileMakerScreen = () => {
         await updateDoc(nameRef, {
           firstName: values.firstName,
           lastName: values.lastName,
-          // profilePicture: downloadURL,
         });
 
         console.log("Profile picture and name saved successfully.");
